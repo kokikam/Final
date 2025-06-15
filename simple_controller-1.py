@@ -8,6 +8,7 @@ from datetime import datetime
 import os
 import csv
 
+
 #Getting image from camera
 def get_image(camera):
     raw_image = camera.getImage()  
