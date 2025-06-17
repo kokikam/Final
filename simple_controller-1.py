@@ -100,7 +100,7 @@ def main():
 
     time_sleep = 1000
 
-    csv_file = 'C:/Users/Josue/OneDrive/MNA/Navegacion Autonoma/Final/data/data.csv'
+    csv_file = 'C:/Users/Josue/OneDrive/MNA/Navegacion Autonoma/Final/data.csv'
     if not os.path.exists(csv_file):
         with open(csv_file, mode='w', newline='') as file:
             writer = csv.writer(file)
